@@ -46,7 +46,7 @@ It's crucial to assess the model's performance across different evaluation metri
 
 
 
-# Task 1
+# Task 2
 
 #MOVIE RATING PREDICTION WITH PYTHON
 ##Data Acquisition:
@@ -89,3 +89,49 @@ Model Improvement:
 
 Fine-tune the model by experimenting with different algorithms, feature combinations, or preprocessing techniques to improve prediction accuracy.
 Consider ensemble methods or advanced regression techniques for better performance if necessary.
+
+
+# Task 3
+
+#IRIS FLOWER CLASSIFICATION
+##Data Acquisition:
+Obtain a dataset containing information about movies, including features like genre, director, actors, release year, runtime, and rating.
+
+##Data Preprocessing:
+
+##Handle missing values: 
+Analyze the dataset for missing values in each column and decide whether to impute or remove them based on the nature of the data.
+Encode categorical variables: Convert categorical variables like genre, director, and actors into numerical format using techniques like one-hot encoding or label encoding.
+Split the dataset: Divide the dataset into training and testing sets to train the model and evaluate its performance.
+
+##Exploratory Data Analysis (EDA):
+
+Explore the distribution of movie ratings using visualizations like histograms, box plots, and violin plots.
+Analyze the relationship between movie features (e.g., genre, director, actors) and ratings to understand their impact on the ratings.
+
+##Feature Engineering:
+
+Extract additional features from existing ones if necessary. For example, you can create new features like the number of actors, the total number of movies directed by a director, or the average rating of a director's previous movies.
+Perform feature scaling if required to ensure that all features have the same scale.
+
+
+##Model Selection and Training:
+
+Choose an appropriate regression model for predicting movie ratings. Common models include linear regression, decision trees, random forests, and gradient boosting.
+Train the selected model using the training data. Adjust model hyperparameters to optimize performance if necessary.
+
+
+##Model Evaluation:
+
+Evaluate the trained model's performance using appropriate evaluation metrics such as mean squared error (MSE), root mean squared error (RMSE), mean absolute error (MAE), and R-squared.
+Use cross-validation techniques to assess the model's generalization ability and mitigate overfitting.
+
+##Prediction and Interpretation:
+
+Make predictions on the testing dataset using the trained model.
+Interpret the model coefficients or feature importance scores to understand which features have the most significant impact on movie ratings.
+Model Improvement:
+
+Fine-tune the model by experimenting with different algorithms, feature combinations, or preprocessing techniques to improve prediction accuracy.
+Consider ensemble methods or advanced regression techniques for better performance if necessary.
+
